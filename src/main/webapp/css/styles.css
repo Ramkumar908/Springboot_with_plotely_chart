@@ -1,0 +1,42 @@
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;margin:0;padding:0;}
+*:before, *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd{margin:0;padding:0;}	
+body{font-size:14px;font-family: 'Open Sans', sans-serif;color: #43425D;background-color: #f1feff;}
+body p {font-family: 'Open Sans', sans-serif;}
+h1, h2, h3, h4, h5, h6{font-weight:600;font-family: 'Open Sans', sans-serif;color: #43425D;}
+img{border:0px;max-width:100%;}
+input[type="submit"],  
+button[type="submit"],
+button{-webkit-appearance:none;appearance:none;cursor:pointer;outline:none !important;}
+a, a:hover{text-decoration:none;outline:none;color:#007bff;}
+ul, ol{list-style-type:none;}
+.clearboth:after,.clearboth:before{clear:both;width:100%;display:block;content:'';}	
+title{color: red;font-weight:600;font-family: 'Open Sans', sans-serif;font-size: 18px;}
+label {font-size: 13px;margin-bottom: 5px;font-weight: 600;}
+.custom-select, .form-control {font-size: 14px;}
+.btn.btn-primary {background-color: #ff000c;border: 0;font-size: 16px;width: 100px;}
+table.table tr th, table.table tbody tr td {vertical-align: middle;padding: 5px 8px;text-align: center;}
+/****************************main content*************************/
+.card-header.card-title {
+    padding: 5px 20px;
+}
+.card-body {
+    padding: 10px 20px;
+}
+.card-footer {
+	padding: 5px 20px;
+	text-align: right;
+}
+.revenue_section table.table thead tr th {
+    font-size: 13px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 400;
+	padding: 5px 8px;
+}
+.bg-grey {
+    background-color: #b0b0b0;
+}
+.bg_light  {
+    background-color: #d6ecff;
+}
